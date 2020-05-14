@@ -1,0 +1,1 @@
+mvn -f ../pom.xml -Dcucumber.options="--tags @TC001_ABOUT_CONTENTS,@TC001_CONTACT_CONTENTS" test

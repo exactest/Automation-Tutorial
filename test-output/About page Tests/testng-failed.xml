@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [About page Tests]">
+  <test name="p1tests(failed)">
+    <groups>
+      <run>
+        <include name="p3"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="ie.exactest.tests.AboutPage_Tests">
+        <methods>
+          <include name="teardown"/>
+          <include name="testlinks"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- ie.exactest.tests.AboutPage_Tests -->
+    </classes>
+  </test> <!-- p1tests(failed) -->
+</suite> <!-- Failed suite [About page Tests] -->
